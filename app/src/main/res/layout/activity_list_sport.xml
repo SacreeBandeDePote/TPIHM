@@ -14,21 +14,22 @@
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
-            android:layout_width="384dp"
-            android:layout_height="54dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/navigation"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="99dp" />
 
-        <TextView
-            android:id="@+id/message"
+        <ExpandableListView
+            android:id="@+id/list_sport"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:text="@string/title_choix"
-            android:textAlignment="center"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="213dp" />
+            android:layout_height="match_parent"
+            android:headerDividersEnabled="false"
+            android:scrollbars="none|vertical">
+
+        </ExpandableListView>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

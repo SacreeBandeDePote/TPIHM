@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class ListSport extends AppCompatActivity {
 
     private TextView mTextMessage;
@@ -18,10 +20,10 @@ public class ListSport extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.choix_sport:
-                    mTextMessage.setText(R.string.title_choix);
+                    mTextMessage.setText("choix");
                     return true;
                 case R.id.voeux_sport:
-                    mTextMessage.setText(R.string.title_voeux);
+                    mTextMessage.setText("voeux");
                     return true;
                 default :
                     return false;
@@ -35,8 +37,6 @@ public class ListSport extends AppCompatActivity {
         setContentView(R.layout.activity_list_sport);
 
         mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
 }
