@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.insa.lsbdp.ihm.MainActivity">
+    tools:context="com.insa.lsbdp.ihm.TestActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,23 +21,18 @@
     </android.support.design.widget.AppBarLayout>
 
     <include
-        android:id="@+id/include"
-        layout="@layout/content_main" />
+        android:id="@+id/include2"
+        layout="@layout/content_test" />
 
-    <Button
-        android:id="@+id/buttonTest"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/buttonToTest"
-        app:layout_anchor="@+id/include"
+        android:fontFamily="monospace"
+        android:text="CA MARCHE"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="left|center" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>
