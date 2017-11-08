@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/login_logo_insa"
+        android:layout_width="236dp"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo_insa"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/login_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVICE D'AUTHENTIFICATION CENTRALISEE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:id="@+id/login_grey"
+        android:layout_width="382dp"
+        android:layout_height="238dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/login_pwd_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe:"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/login_id_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identifiant:"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/login_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrez votre identifiant et votre mot de passe."
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/login_pwd_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <EditText
+        android:id="@+id/login_id_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="179dp"
+        android:layout_height="27dp"
+        android:background="@android:color/white"
+        android:text="Se connecter"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+</android.support.constraint.ConstraintLayout>
