@@ -28,6 +28,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.insa.lsbdp.ihm.MainActivity" />
         </activity>
+        <activity
+            android:name=".CreneauActivity"
+            android:label="@string/title_activity_creneau"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
