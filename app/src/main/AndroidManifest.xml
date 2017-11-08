@@ -28,6 +28,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.insa.lsbdp.ihm.MainActivity" />
         </activity>
+        <activity
+            android:name=".ListSport"
+            android:label="@string/title_activity_list_sport"></activity>
     </application>
 
 </manifest>

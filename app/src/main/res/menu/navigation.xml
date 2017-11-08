@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/choix_sport"
+        android:title="@string/title_choix" />
+
+    <item
+        android:id="@+id/voeux_sport"
+        android:title="@string/title_voeux" />
+
+</menu>

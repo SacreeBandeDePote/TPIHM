@@ -14,4 +14,7 @@
     <string name="slideshow">Slideshow</string>
     <string name="buttonToTest">Test</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_list_sport">ListSport</string>
+    <string name="title_choix">Choix Des Sports</string>
+    <string name="title_voeux">Voeux</string>
 </resources>
