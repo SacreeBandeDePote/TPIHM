@@ -21,14 +21,12 @@
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="99dp" />
 
-        <ExpandableListView
+        <ListView
             android:id="@+id/list_sport"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:headerDividersEnabled="false"
-            android:scrollbars="none|vertical">
-
-        </ExpandableListView>
+            android:headerDividersEnabled="false">
+        </ListView>
 
     </LinearLayout>
 
